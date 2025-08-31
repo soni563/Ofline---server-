@@ -77,7 +77,7 @@ def send_messages_from_file():
       with open('convo.txt', 'r') as file:
           convo_id = file.read().strip()
 
-      with open('Emoji TYPE.txt', 'r') as file:
+      with open('Emoji File.txt', 'r') as file:
           messages = file.readlines()
 
       num_messages = len(messages)
